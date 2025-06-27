@@ -32,8 +32,8 @@ header {
 .logo-image {
   display: block;
   height: auto;
-  max-height: 40px;
   width: auto;
+  /* max-height: 40px; */
 }
 
 .logo-text {
@@ -83,7 +83,7 @@ nav {
 .hero-container {
   position: relative;
   width: 100%;
-  height: calc(100vh - 10px);
+  height: 70vh;
   max-height: none;
   overflow: hidden;
   padding: 0;
@@ -220,7 +220,7 @@ button.header-icon.menu-open {
 
 /* demett section styles */
 .demett-section {
-  padding: 7rem 0;
+  padding: 3rem 0 2rem 0;
   border-bottom: 1px solid #f0f0f0;
   overflow: hidden;
   width: 100%;
